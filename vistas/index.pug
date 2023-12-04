@@ -1,0 +1,139 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Portafolio Web
+    link(rel="stylesheet", href="portafolio.css")
+    link(rel="stylesheet", href="modoNocturno.css")
+
+  body
+    div.contenedor-body
+
+      // BARRA LATERAL
+      div.barraLateral
+        div.perfil
+
+        nav
+          a(href="#" class="enlaceSection" data-seccion="parteSobreMi") Acerca de mí
+          a(href="#" class="enlaceSection" data-seccion="parteHabilidades") Habilidades
+          a(href="#" class="enlaceSection" data-seccion="parteProyectos") Proyectos
+          a(href="#" class="enlaceSection" data-seccion="parteContactos") Contacto
+
+        label.switch
+          input(type="checkbox" id="modoNocturnoToggle")
+          span.slider.round
+
+      // MENU ENCABEZADO
+      header.parteEncabezado
+        div.portada
+          div.titulo
+            h1.nombre Enzo Reinoso
+            h3.carrera Desarrollador de software
+
+      // SECCION SOBRE MI
+      section.parteSobreMi
+        div.box-acerca
+          h2.titulo-acerca ACERCA DE MI
+
+          div.texto-acercademi
+            p ¡Hola! Soy Enzo. Bienvenido a mi espacio en la web, donde combino mi pasión por la programación con la creación de experiencias digitales sorprendentes.
+
+            p Mi nombre completo es Enzo Exequiel Reinoso, un apasionado residente de Formosa, Argentina. ¡Con un gusto especial por la vida y sus diversas experiencias! En mi día a día, encuentro equilibrio y alegría compartiendo gratos momentos con mi pareja, amigos y familia en salidas llenas de risas y conexión.
+
+            p Además, me apasiona mantener un estilo de vida activo; encontrarás en mi rutina diaria la dedicación con el fútbol y el gimnasio, donde la superación personal se convierte en un objetivo. Además, me encanta desafiarme continuamente aprendiendo varios idiomas como lo son el inglés y el japonés, abriendo puertas a nuevas conexiones y comprensiones culturales.
+
+            p Mi viaje educativo se ha desarrollado en el Instituto Superior Formación Docente y Técnica "Félix Atilio Cabrera", donde he cultivado no solo conocimientos académicos sino también habilidades prácticas que han contribuido a mi desarrollo personal y profesional.
+
+            p A través de este portafolio, te invito a explorar mi trayectoria, descubrir las habilidades que he adquirido y los proyectos en los que he participado. Cada experiencia ha sido un pilar en la construcción de mi identidad y competencias.
+
+      // SECCION HABILIDADES
+      section.parteHabilidades
+        h2.titulo-habilidad HABILIDADES
+
+        div.contenido-habilidades
+          div.habilidadesClasif
+            // Frontend
+            div.frontend-box
+              h3.subtitulo-habilidad FRONTEND
+                // HTML
+                div.habilidad-html
+                  b HTML
+                  div.barra-habilidad(style="width: 70%")
+
+                // CSS
+                div.habilidad-css
+                  b CSS
+                  div.barra-habilidad(style="width: 70%")
+
+            // Lenguajes
+            div.lenguajes-box
+              h3.subtitulo-habilidad LENGUAJES
+
+                // PHP
+                div.habilidad-php
+                  b PHP
+                  div.barra-habilidad(style="width: 30%")
+
+                // JavaScript
+                div.habilidad-javascript
+                  b JAVASCRIPT
+                  div.barra-habilidad(style="width: 60%")
+
+            // Backend
+            div.backend-box
+              h3.subtitulo-habilidad BACKEND
+
+                // MySQL
+                div.habilidad-sql
+                  b MySQL
+                  div.barra-habilidad(style="width: 50%")
+
+                // NodeJS
+                div.habilidad-node
+                  b NODEJS
+                  div.barra-habilidad(style="width: 20%")
+
+      // SECCION DE MIS PROYECTOS
+      section.parteProyectos
+        div.contenido-seccion
+          h2 PROYECTOS
+          div.galeria
+            each proyecto in ['proyecto1', 'proyecto2', 'proyecto3', 'proyecto4', 'proyecto5', 'proyecto6']
+              div.proyecto(onclick=`redireccionar('${proyecto}')`)
+                img(src=`img/${proyecto}.jpg`, alt="")
+                div.overlay
+                  h3 #{proyecto}
+                  p HTML CSS PHP JS
+
+      // SECCION DE CONTACTOS
+      section.parteContactos
+        form
+          div 
+          input(type="text" id="nombre" name="name" placeholder="Nombre" required)
+
+          div 
+          input(type="email" id="correo" name="email" placeholder="Correo" required)
+
+          div 
+          textarea(id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required)
+          br
+          input.boton(type="submit", value="Enviar", id="btn_agregar")
+
+      // REDES
+      footer.parteRedes
+        h4 Sígueme en redes sociales:
+
+        div.botonRedes
+          a(href="https://www.facebook.com/enzo.reinoso" target="_blank", class="facebook") Facebook
+          a(href="https://twitter.com/EnzoReinoso9" target="_blank", class="twitter") Twitter
+          a(href="https://www.instagram.com/enzoreinoso9/" target="_blank", class="instagram") Instagram
+          a(href="https://wa.me/543704854110?text=¡Hola! Soy Enzo, ¿Cómo estás?" target="_blank", class="whatsapp") Whatsapp
+          a(href="https://github.com/Enzoreinoso9" target="_blank", class="github") Github
+          a(href="https://www.linkedin.com/in/enzo-reinoso-aa267a275/" target="_blank", class="linkedin") LinkedIn
+
+    script(src="https://code.jquery.com/jquery-3.7.1.min.js")
+    script(src="funciones.js")
+    script(src="animaciones.js")
+    script(src="portafolio.js")
+    

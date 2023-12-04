@@ -1,0 +1,311 @@
+/*MODO NOCTURNO*/
+body.modo-nocturno{
+    background-color: #fff;
+    color: #000;
+    }
+    
+    /*BODY*/
+    .modo-nocturno .contenedor-body {    
+        background-color: rgba(255, 254, 254, 0.9);
+        color: #000;
+    }
+
+    /*BARRA LATERAL*/
+    .modo-nocturno .barraLateral{
+        background-color: #cecece;
+    }
+
+    .modo-nocturno nav a {
+        color: #EA1A6A;
+        border-bottom: 1PX solid #161A30;
+    }
+
+    .modo-nocturno nav a:hover {
+        background-color: #161A30;
+        color:#ffff;
+      }
+
+      .modo-nocturno .perfil {
+        border: 3px solid #161A30;
+      }
+
+      /*ENCABEZADO*/
+      .modo-nocturno .titulo {
+        border: 5px solid #646464;
+        background-color: rgba(255, 254, 254, 0.9);
+      }
+
+      .modo-nocturno .nombre {
+        color: #02c048;
+        text-shadow: none;
+      }
+
+    .modo-nocturno .carrera{
+        color: #EA1A6A;
+        text-shadow: none;
+    }
+    
+/*ACERCA DE MI*/
+.modo-nocturno .texto-acercademi{
+    border: 2px solid #EA1A6A;
+    background-color: rgba(255, 253, 253, 0.5);
+    box-shadow: 5px 5px 10px #1a1a1a;
+}
+
+.modo-nocturno .parteSobreMi p {
+
+    color: #000;
+}
+
+    .modo-nocturno .parteSobreMi h2 {
+        color: #EA1A6A;
+        text-shadow: none;
+        text-shadow: 0 0 5px #1a1a1a,
+        0 0 25px #1a1a1a,
+        0 0 50px #1a1a1a,
+        0 0 10px #1a1a1a;
+    }
+
+
+    /*HABILIDADES*/
+    .modo-nocturno .parteHabilidades h2 {
+        color: #3CCF4E;
+        text-shadow: 0 0 5px #1a1a1a,
+        0 0 25px #1a1a1a,
+        0 0 50px #1a1a1a,
+        0 0 10px #1a1a1a;
+      }
+      
+     .modo-nocturno .habilidadesClasif{
+        border: 2px solid #3CCF4E;
+        box-shadow: 5px 5px 10px #1a1a1a;
+        background-color: rgba(255, 253, 253, 0.5);
+      }
+      
+     .modo-nocturno .frontend-box, .lenguajes-box, .backend-box {
+      color: #000;
+      }
+
+    .modo-nocturno .subtitulo-habilidad{
+        color: #000;
+      }
+      
+    .modo-nocturno  .parteHabilidades .contenido-habilidades .habilidadesClasif .frontend-box .habilidad-html{
+        box-shadow: 5px 5px 10px #1a1a1a;
+        background-color: #A9A9A9;
+        color: #e34f26;
+      }
+      
+    .modo-nocturno  .parteHabilidades .contenido-habilidades .habilidadesClasif .frontend-box .habilidad-css{
+        box-shadow: 5px 5px 10px #1a1a1a;
+        background-color: #A9A9A9;
+        color: rgb(37, 105, 233);
+      }
+      
+     .modo-nocturno .parteHabilidades .contenido-habilidades .habilidadesClasif .lenguajes-box .habilidad-php{
+        box-shadow: 5px 5px 10px #1a1a1a;
+        background-color: #A9A9A9;
+        color: #4f5b93;
+      }
+      
+     .modo-nocturno .parteHabilidades .contenido-habilidades .habilidadesClasif .lenguajes-box .habilidad-javascript{
+        box-shadow: 5px 5px 10px #1a1a1a;
+        background-color: #A9A9A9;
+        color: #f7df1e;
+      }
+      
+     .modo-nocturno .parteHabilidades .contenido-habilidades .habilidadesClasif .backend-box .habilidad-sql{
+        box-shadow: 5px 5px 10px #1a1a1a;
+        background-color: #A9A9A9;
+        color: #00758f;
+      }
+      
+     .modo-nocturno .parteHabilidades .contenido-habilidades .habilidadesClasif .backend-box .habilidad-node{
+        background-color: #A9A9A9;
+        color: #468030;
+        box-shadow: 5px 5px 10px #1a1a1a;
+      }
+      
+     .modo-nocturno .barra-habilidad{
+        background-color: #0d5706; 
+        border: 1px solid gray;
+      }
+      
+    
+    /*PROYECTOS*/
+    .modo-nocturno .parteProyectos{
+          color: #069dcf;
+      }
+      
+    .modo-nocturno .parteProyectos h2 {
+          text-shadow: 0 0 5px #1a1a1a,
+          0 0 25px #1a1a1a,
+          0 0 50px #1a1a1a,
+          0 0 10px #1a1a1a;
+      }
+      
+    .modo-nocturno .parteProyectos .galeria {
+        border: 2px solid #069dcf;
+        background-color: rgba(255, 253, 253, 0.5);
+        box-shadow: 5px 5px 10px #1a1a1a;
+      }
+      
+      
+    .modo-nocturno .parteProyectos .galeria .proyecto .overlay{
+        background: linear-gradient(rgba(26, 164, 188, 0.9),rgba(234, 26, 106, 0.9));
+      }
+      
+    .modo-nocturno .parteProyectos .galeria .proyecto .overlay h3 {
+        color: #fff;
+      }
+
+    .modo-nocturno .parteProyectos .galeria .proyecto .overlay p {
+        color: #fff;
+      }
+
+/*SECCION CONTACTOS*/
+.modo-nocturno input{
+  background-color: #000;
+}
+
+.modo-nocturno textarea{
+  background-color: #000;
+}
+
+.modo-nocturno input::placeholder{
+  color: #fff;
+}
+
+.modo-nocturno textarea::placeholder{
+  color: #fff;
+}
+
+.modo-nocturno .boton{
+  background-color: #ff5ec1;
+  color: #fff;
+}
+
+.modo-nocturno .boton:hover {
+  background-color: #0766AD;
+}
+
+.modo-nocturno .boton:active {
+  background-color: #fff;
+}
+
+
+/*REDES*/
+.modo-nocturno .parteRedes {
+  background: #A9A9A9;
+  color: #fff;
+}
+
+.modo-nocturno .parteRedes h4 {
+  color: #000;
+}
+
+.modo-nocturno .facebook{
+  color: #556b9b;
+  background-color: #fff;
+  text-shadow: none;
+  border: 2px solid #3b5998;
+  box-shadow: 0 0 5px #1a1a1a;
+}
+
+.modo-nocturno .twitter {
+  color: #47b6fa;
+  background-color: #fff;
+  text-shadow: none;
+  border: 2px solid #1da1f2;
+  box-shadow: 0 0 5px #1a1a1a;
+}
+
+.modo-nocturno .instagram {
+  color: #eb657e;
+  background-color: #fff;
+  text-shadow: none;
+  border: 2px solid #e4405f;
+  box-shadow: 0 0 5px none;
+}
+
+.modo-nocturno .whatsapp {
+  color: #51d180;
+  background-color: #fff;
+  text-shadow: none;
+  border: 2px solid #25d366;
+  box-shadow: 0 0 5px #1a1a1a;
+}
+
+.modo-nocturno .github {
+  color: #000;
+  background-color: #fff;
+  text-shadow: none;
+  border: 2px solid #000;
+  box-shadow: 0 0 5px #1a1a1a;
+}
+
+.modo-nocturno .linkedin {
+color: #3d7cbb;
+background-color: #fff;
+text-shadow: none;
+border: 2px solid #0a66c2;
+box-shadow: 0 0 5px #1a1a1a;
+}
+
+
+    /*CHECKBOX*/
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        margin-top: 140px;
+        margin-left: 70px
+    }
+    
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        transition: 0.4s;
+        border-radius: 34px;
+    }
+    
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: #af9b02;
+        transition: 0.4s;
+        border-radius: 50%;
+    }
+
+    input:checked + .slider::before {
+
+        background-color: #fff;
+    }
+    
+    input:checked + .slider {
+        background-color: #1a1a1a;
+    }
+    
+    input:focus + .slider {
+        box-shadow: 0 0 1px #1a1a1a;
+    }
+    
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
