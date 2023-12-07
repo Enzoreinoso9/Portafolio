@@ -99,12 +99,37 @@ html(lang="en")
         div.contenido-seccion
           h2 PROYECTOS
           div.galeria
-            each proyecto in ['proyecto1', 'proyecto2', 'proyecto3', 'proyecto4', 'proyecto5', 'proyecto6']
-              div.proyecto(onclick=`redireccionar('${proyecto}')`)
-                img(src=`img/${proyecto}.jpg`, alt="")
-                div.overlay
-                  h3 #{proyecto}
-                  p HTML CSS PHP JS
+            div.proyecto
+              img(src="img/proyecto1.jpg", alt="")
+              div.overlay
+                h3 Página Web Bucles 
+                  p Html - Css - Js 
+            div.proyecto 
+              img(src="img/proyecto2.jpg", alt="")
+              div.overlay
+                h3 Login
+                  p Html - Css - Php
+            div.proyecto
+              img(src="img/proyecto3.jpg", alt="")
+              div.overlay
+                h3 Listas de Alumnos
+                  p Html - Css - Json
+            div.proyecto
+              img(src="img/proyecto4.jpg", alt="")
+              div.overlay
+                h3 Prototipo de Banco
+                  p Html - Css - Js
+            div.proyecto
+              img(src="img/proyecto5.jpg", alt="")
+              div.overlay
+                h3 Calculos de Figuras 
+                  p Html - Css - Js
+            div.proyecto
+              img(src="img/proyecto6.jpg", alt="")
+              div.overlay
+                h3 Datos de Juegos 
+                  p Html - Css - Js
+
 
       // SECCION DE CONTACTOS
       section.parteContactos
