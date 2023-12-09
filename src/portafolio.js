@@ -23,8 +23,6 @@ function guardarDatos() {
 }
 
 
-
-
 //Modo Nocturno
 document.addEventListener('DOMContentLoaded', function () {
     const modoNocturnoToggle = document.getElementById('modoNocturnoToggle');
@@ -36,3 +34,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+//Redireccion de archivos estaticos
+document.addEventListener('DOMContentLoaded',function() {
+    var proyecto1 = document.getElementById('proyecto1');
+    proyecto1.addEventListener('click', function() {
+        window.location.href = './vistas/projects/Pagina Web-Bucles/menú.html';
+    })
+    
+})
