@@ -1,6 +1,6 @@
 function redireccionar(proyecto) {
     window.location.href = `/vistas/projects/${proyecto}.html`;
-  }
+}
 
 
 //Mensajes Enviados
@@ -32,13 +32,3 @@ document.addEventListener('DOMContentLoaded', function () {
         body.classList.toggle('modo-nocturno', modoNocturnoToggle.checked);
     });
 });
-
-
-//Redireccion de archivos estaticos
-document.addEventListener('DOMContentLoaded',function() {
-    var proyecto1 = document.getElementById('proyecto1');
-    proyecto1.addEventListener('click', function() {
-        window.location.href = './vistas/projects/Pagina Web-Bucles/menú.html';
-    })
-    
-})
