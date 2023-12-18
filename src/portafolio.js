@@ -1,5 +1,18 @@
-function redireccionar(proyecto) {
-    window.location.href = `/vistas/projects/${proyecto}.html`;
+//Redireccionamiento de proyectos
+
+function redirigir(nombreProyecto) {
+    var proyectosGit = {
+        proyecto1: 'https://github.com/Enzoreinoso9/PaginaWebBucles',
+        proyecto2: 'https://github.com/Enzoreinoso9/Login-App',
+        proyecto3: 'https://github.com/Enzoreinoso9/Lista-Alumnos',
+        proyecto4: 'https://github.com/Enzoreinoso9/Prototipo-Cajero',
+        proyecto5: 'https://github.com/Enzoreinoso9/Calculo-Figuras',
+        proyecto6: 'https://github.com/Enzoreinoso9/Sistema-de-Apps',
+    };
+
+    var urlGit = proyectosGit[nombreProyecto];
+
+    window.location.href = urlGit;
 }
 
 
